@@ -1,12 +1,12 @@
 import React from 'react';
-import ReducerExam from './components/10.useReducer사용하기';
+import Exam from './components/11.contextAPI사용하기'
 
 function App() {
-  return (
-    <div className="App">
-		<ReducerExam/>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Exam/>
+		</div>
+	);
 }
 
 export default App;
