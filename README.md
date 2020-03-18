@@ -29,6 +29,7 @@ function App() {
 
 export default App;
 ```
+<br/>
 
 ### Categories
 -  _[props 받아보기](https://github.com/gojaebeom/react-study/blob/master/src/components/01.props%EB%B0%9B%EC%95%84%EB%B3%B4%EA%B8%B0.js)_
