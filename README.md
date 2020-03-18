@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Study
+#### *리액트 api 문서를 참고하여 연습. src/components 경로에 연습파일들을 올려놓았지만 찾아보기 귀찮을 나를 위해 링크를 걸어두자.*
+<br/>
 
-## Available Scripts
+#### _file download_
+-  _git clone https://github.com/gojaebeom/react-study.git_
+#### _install and start_
+-  _1. 최상위 경로에서 npm install_
+-  _2. npm run start_
+<br/>
+<br/>
 
-In the project directory, you can run:
 
-### `npm start`
+### 연습하는 방법
+```javascript
+import React from 'react';
+import Exam from './components/01.props받아보기' 
+//이와같은 방식으로 자신이 만든 컴포넌트 경로를 import 해주기만 하면 된다. 
+//최대한 App 함수는 건드리지 않고 연습할 컴포넌트내부에서 코딩을 하면 
+//다른 파일을 불러와도 별다른 설정없이 실행이 가능함. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+function App() {
+	return (
+		<div className="App">
+			<Exam/>
+		</div>
+	);
+}
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+export default App;
+```
 
-### `npm test`
+### Categories
+-  _[props 받아보기](https://github.com/gojaebeom/react-study/blob/master/src/components/01.props%EB%B0%9B%EC%95%84%EB%B3%B4%EA%B8%B0.js)_
+-  _[조건부 랜더링](https://github.com/gojaebeom/react-study/blob/master/src/components/02.%EC%A1%B0%EA%B1%B4%EB%B6%80%EB%9E%9C%EB%8D%94%EB%A7%81.js)_
+-  _[useState 사용하기](https://github.com/gojaebeom/react-study/blob/master/src/components/03.useState%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.js)_
+-  _[input 상태 관리하기](https://github.com/gojaebeom/react-study/blob/master/src/components/04.input%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.js)_
+-  _[다수의 input 상태 관리하기](https://github.com/gojaebeom/react-study/blob/master/src/components/05.%EB%8B%A4%EC%88%98%EC%9D%98input%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.js)_
+-  _[useRef를 활용한 특정 돔 선택하기](https://github.com/gojaebeom/react-study/blob/master/src/components/06.useFef-%ED%8A%B9%EC%A0%95Dom%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0.js)_
+-  _[배열 랜더링 하기](https://github.com/gojaebeom/react-study/blob/master/src/components/07.%EB%B0%B0%EC%97%B4%EB%9E%9C%EB%8D%94%EB%A7%81%ED%95%98%EA%B8%B0.js)_
+-  _[useRef를 활용한 컴포넌트 안의 변수 만들기](https://github.com/gojaebeom/react-study/blob/master/src/components/08.useRef-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%95%88%EC%9D%98%EB%B3%80%EC%88%98%EB%A7%8C%EB%93%A4%EA%B8%B0.js)_
+-  _[useEffect 사용하기](https://github.com/gojaebeom/react-study/blob/master/src/components/09.useEffect%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0.js)_
+-  _[useReducer 사용하기](https://github.com/gojaebeom/react-study/blob/master/src/components/10.useReducer%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.js)_
+-  _[contextAPI 사용하기](https://github.com/gojaebeom/react-study/blob/master/src/components/11.contextAPI%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.js)_
+-  _[Context 와 useReducer 응용](https://github.com/gojaebeom/react-study/blob/master/src/components/12.Context%EC%99%80UseReducer%EC%9D%91%EC%9A%A9.js)_
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
