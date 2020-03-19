@@ -44,4 +44,9 @@ export default App;
 -  _[useReducer 사용하기](https://github.com/gojaebeom/react-study/blob/master/src/components/10.useReducer%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.js)_
 -  _[contextAPI 사용하기](https://github.com/gojaebeom/react-study/blob/master/src/components/11.contextAPI%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.js)_
 -  _[Context 와 useReducer 응용](https://github.com/gojaebeom/react-study/blob/master/src/components/12.Context%EC%99%80UseReducer%EC%9D%91%EC%9A%A9.js)_
+<br/>
 
+## Creater
+- [gojaebeom](https://github.com/gojaebeom)
+    - email address : const.gjb@gmail.com
+	- create-react-app을 이용하여 만들었다. 관련 링크는 [create-react-app](https://github.com/facebook/create-react-app)
