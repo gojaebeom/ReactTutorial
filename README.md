@@ -1,4 +1,4 @@
-# React Study
+# React Study 
 #### *리액트 api 문서를 참고하여 연습. src/components 경로에 연습파일들을 올려놓았지만 찾아보기 귀찮을 나를 위해 링크를 걸어두자.*
 <br/>
 
