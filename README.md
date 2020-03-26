@@ -1,4 +1,4 @@
-# React Study 
+# React Study  
 #### *리액트 api 문서를 참고하여 연습. src/components 경로에 연습파일들을 올려놓았지만 찾아보기 귀찮을 나를 위해 링크를 걸어두자.*
 <br/>
 
@@ -12,7 +12,7 @@
 
 
 ### 연습하는 방법
-```javascript
+```javascript 
 import React from 'react';
 import Exam from './components/01.props받아보기' 
 //이와같은 방식으로 자신이 만든 컴포넌트 경로를 import 해주기만 하면 된다. 
