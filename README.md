@@ -14,7 +14,7 @@
 ### 연습하는 방법
 ```javascript 
 import React from 'react';
-import Exam from './components/01.props받아보기' 
+import Exam from './components/01.props받아보기'  
 //이와같은 방식으로 자신이 만든 컴포넌트 경로를 import 해주기만 하면 된다. 
 //최대한 App 함수는 건드리지 않고 연습할 컴포넌트내부에서 코딩을 하면 
 //다른 파일을 불러와도 별다른 설정없이 실행이 가능함. 
